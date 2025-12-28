@@ -13,8 +13,6 @@ function resetGame() {
 	lost.textContent = misses;
 }
 
-getHole = index => document.getElementById(`hole${index}`);
-
 holes.forEach(hole => {
 	hole.addEventListener('click', () => {
 		if (hole.classList.contains('hole_has-mole')) {
