@@ -1,4 +1,4 @@
- function checkVisibility() {
+function checkVisibility() {
 	let reveals = document.querySelectorAll('.reveal');
 	let windowHeight = window.innerHeight;
 	reveals.forEach(reveal => {
